@@ -8,7 +8,7 @@
 
 import _ from 'underscore';
 
-const BackbonePouch = {};
+let BackbonePouch = {};
 
 const methodMap = {
   create: 'post',
@@ -252,4 +252,4 @@ BackbonePouch.attachments = (defaults) => {
   };
 };
 
-module.exports = BackbonePouch;
+export default BackbonePouch;
