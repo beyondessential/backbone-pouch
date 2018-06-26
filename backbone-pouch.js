@@ -6,7 +6,7 @@
  * Licensed under the MIT license.
  */
 
-import _ from 'underscore';
+const _ = require('underscore');
 
 let BackbonePouch = {};
 
