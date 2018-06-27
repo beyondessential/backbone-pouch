@@ -252,4 +252,4 @@ BackbonePouch.attachments = (defaults) => {
   };
 };
 
-export default BackbonePouch;
+module.exports = BackbonePouch;
